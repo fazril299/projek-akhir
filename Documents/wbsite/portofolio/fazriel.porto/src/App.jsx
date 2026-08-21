@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import AboutBento from './components/AboutBento';
 import ProjectsSection from './components/ProjectsSection';
@@ -16,9 +15,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#F5F3EA] text-[#252525] relative selection:bg-[#FEDCDD]">
-      {/* Sticky Navbar */}
-      <Navbar onOpenContact={() => setIsContactOpen(true)} />
-
       {/* Main Content Sections */}
       <main id="home">
         <Hero onOpenContact={() => setIsContactOpen(true)} />

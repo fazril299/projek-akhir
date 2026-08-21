@@ -18,7 +18,7 @@ export default function Hero({ onOpenContact }) {
       <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-transparent to-black/20 pointer-events-none z-[1]" />
 
       {/* 2. Top Header Brand Logo — centered, inside hero (below sticky Navbar) */}
-      <header className="w-full flex justify-center items-center pt-[72px] sm:pt-[80px] z-20 px-6">
+      <header className="w-full flex justify-center items-center pt-8 sm:pt-10 z-20 px-6">
         <motion.a
           href="#home"
           initial={{ opacity: 0, y: -10 }}
